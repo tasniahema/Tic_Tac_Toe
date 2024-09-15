@@ -29,10 +29,12 @@ boxes.forEach((box)=>{
 
         if(turn0 === true){
             box.innerText ="0";
+            box.style.color = "red";
             turn0 = false;
         }
         else{
             box.innerText ="X";
+            box.style.color = "blue";
               turn0 = true;
         }
         box.disabled = true;
